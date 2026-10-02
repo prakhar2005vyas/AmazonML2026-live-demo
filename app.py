@@ -19,6 +19,10 @@ from rapidfuzz import fuzz
 from sklearn.feature_extraction.text import TfidfVectorizer
 import streamlit as st
 
+# Configure safe runtime paths before importing pipeline modules
+os.environ.setdefault("ER_WORK", "/tmp/er_work")
+os.environ.setdefault("ER_OUTPUT", "/tmp/er_output")
+
 # Import pipeline normalization, blocking, and feature utilities
 import normalize
 import blocking
