@@ -1,4 +1,4 @@
-﻿"""Amazon ML Challenge 2026: Business Entity Resolution Live Inference Demo.
+"""Amazon ML Challenge 2026: Business Entity Resolution Live Inference Demo.
 
 Interactive Streamlit application running the real multilingual entity resolution
 pipeline (normalization, blocking, feature extraction, and LightGBM inference)

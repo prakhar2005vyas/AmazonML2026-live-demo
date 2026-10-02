@@ -1,1 +1,1 @@
-﻿libgomp1
+libgomp1
